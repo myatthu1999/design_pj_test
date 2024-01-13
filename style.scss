@@ -97,7 +97,10 @@ $container-max-widths: (
   z-index: -2;
   background-image: url('../img/beach_1.jpg');
 }
-.foot-bg::before{
+.foot-box{
+  z-index: 100!important;
+}
+.foot-box::after{
   position: absolute;
   content: '';
   background-image:  linear-gradient(90deg, #0D0E0F 0%, #2D1908 100%);
